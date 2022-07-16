@@ -11,9 +11,9 @@ import { Error404Component } from "./component/Error-404/error-404.component";
     ],
     imports:[
         RouterModule.forChild([
-            {
-                path: '**', component: Error404Component//quando não se acha a rota certa!
-            }
+            // {
+            //     path: '**', component: Error404Component//quando não se acha a rota certa!
+            // }
         ])
     ],
     exports: [
