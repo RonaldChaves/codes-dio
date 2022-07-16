@@ -7,7 +7,7 @@ import { Book } from "./model/book";
 })
 export class BooksService{
 
-   apiURL = ''//'https://sheet.best/api/sheets/d50275e5-8eab-438d-9a96-bb589b25f46e'
+   apiURL = 'https://sheet.best/api/sheets/d50275e5-8eab-438d-9a96-bb589b25f46e'
    httpOptions = {
       Headers: new HttpHeaders({
          'content-type': 'application/json'
